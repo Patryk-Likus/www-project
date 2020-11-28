@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+    
+     background-image: url("../images/mainImage1.jpg");
+     background-size: 100% 100%;
+    
+   }
+  
+   .github{
+     margin-left: 1%;
+     width: 90px;
+     height: 25px;
+     float: left;
+     background: white;
+   }
+   
+   header{
+     height: 4%;
+   }
+   nav{
+       margin: 0% 10%;
+     
+       background-color: rgba(23, 179, 218, 0.35);
+       border-radius: 30px;
+      
+   }
+   
+   nav a{
+     display: inline-block;
+     font-size: 25px;
+     width: 25%;
+     color: whitesmoke;
+     text-decoration: none;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 10px;
+   }
+   
+   nav a.text1:hover{
+     
+     background-color: red;
+     border-top-left-radius: 30px;
+     border-bottom-left-radius: 30px;
+   }
+   
+   nav a.text4:hover{
+     
+     background-color: red;
+     border-top-right-radius: 30px;
+     border-bottom-right-radius: 30px;
+   }
+   
+   nav a.menu:hover{
+     background-color: red;
+   }
+   
+   section{
+     height: 88%;
+     margin-top: 10px;
+   }
+   article{
+     
+     width: 60%;
+     height: 100%;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   footer{
+     
+     margin-top: 80px;
+     background-color: rgb(13, 175, 162);
+     
+   }
+   
+   footer span{
+     display: inline-block; 
+     width: 100%;
+     text-align: center;
+     padding: 5px 0;
+     font-size: 20px;
+     
+   }
+   article p{
+     color: rgb(0, 255, 136);
+     width: 40%;
+     font-size: 35px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     padding-bottom: 10px;
+     border-bottom: 3px solid RED;
+   
+   }
+   article p1{
+     color: rgb(57, 201, 193);
+     width: 100%;
+     font-size: 30px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 50px;
+     float: left;
+   
+   }
+   article p2{
+     color: rgb(175, 223, 43);
+     width: 35%;
+     font-size: 40px;
+     text-align: center;
+     margin: 30px 5%;
+     padding: 20px 0;
+     float: left;
+     border: 2px solid rgb(94, 255, 0);
+     border-radius: 50px;
+   
+   }
+   
+   .photo{
+    
+     width: 50%;
+     float: left;
+     text-align: center;
+     margin-bottom: 20px;
+    padding-top: 20px;
+    
+   }
+   
+   .photo img{
+     margin-right: auto;
+     margin-left: auto;
+     width: 60%;
+     border-radius: 150px 200px 250px 150px;
+     opacity: 0.7;
+     
+     
+     
+   }
+   
+   .photo figcaption{
+     margin-top: 10px;
+     color: White;
+     text-align: center;
+   }
+   
+   .form{
+     width: 25%;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 30%;
+   }
+   
+   label{
+     color: rgb(255, 0, 0);
+     font-size: 20px;
+     margin-right: 11px;
+   }
+   .imie{
+     
+     margin-right: 68px;
+   }
+   
+   .nazwisko{
+   
+     margin-right: 26px;
+   }
+   
+   .email{
+     
+     margin-right: 58px;
+   }
+   
+   .message{
+     margin-top: 3px;
+     height: 70px;
+   }
+   
+   .button{
+     margin-top: 30px;
+     margin-left: 50%;
+     margin-right: auto;
+     
+   }
+   a.abutton{
+     text-decoration: none;
+   }
+   
+   .info{
+     width: 35%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     padding-top: 15%;
+     font-size: 50px;
+     color: rgb(0, 255, 136);
+   }
+   
+   
+   @media (max-width: 1200px){
+    article p{
+      font-size: 20px;
+    }
+    article p1{
+      font-size: 20px;
+    }
+    article p2{
+      font-size: 20px;
+    }
+  }
+   
+   @media (max-width: 900px){
+     nav a{
+       font-size: 20px;
+     }
+     article p{
+      font-size: 15px;
+    }
+    article p1{
+      font-size: 15px;
+    }
+    article p2{
+      font-size: 15px;
+    }
+   }
+   
+   @media (max-width: 700px){
+     nav a{
+       font-size: 15px;
+     }
+     .github{
+      margin-left: 1%;
+      width: 60px;
+      height: 17px;
+      float: left;
+      background: white;
+    }
+   }
+ 
+   
+   
